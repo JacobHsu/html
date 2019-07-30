@@ -1,13 +1,22 @@
 # html
+ 
 
-`hexo init blog`  
-`cd blog`    
-`hexo s`  
+## [hexo-theme-doc](https://github.com/zalando-incubator/hexo-theme-doc)  
 
+[Quick Start](https://zalando-incubator.github.io/hexo-theme-doc/get-started.html)  
+
+`$ git clone https://github.com/zalando-incubator/hexo-theme-doc-seed.git`  
+
+rename `hexo-theme-doc-seed` to `doc`  
+
+`npm install`  
+
+`hexo s` serve   
 `hexo g` public  
 `hexo d` deploy  
 
-## [hexo-theme-doc](https://github.com/zalando-incubator/hexo-theme-doc)  
+`npm install hexo-deployer-git --save`  
+
 
 _config.yaml
 
