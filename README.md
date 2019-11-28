@@ -9,13 +9,17 @@
 
 rename `hexo-theme-doc-seed` to `doc`  
 
+delete `.git`
+
 `npm install`  
+`npm install hexo-deployer-git --save`  
+> blog> hexo d ERROR Deployer not found: git
 
 `hexo s` serve   
 `hexo g` public  
 `hexo d` deploy  
 
-`npm install hexo-deployer-git --save`  
+
 
 
 _config.yaml
@@ -32,3 +36,8 @@ deploy:
     repository: https://github.com/JacobHsu/html
     branch: gh-pages
 ```
+
+## github
+
+warning: adding embedded git repository: `.deploy_git`
+hint: You've added another git repository inside your current repository.
